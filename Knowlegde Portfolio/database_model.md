@@ -167,7 +167,7 @@ The `player_position` table contains the following columns:
 - **`period_id`**: The period of the match (e.g., first half, second half).
 
 #### `PositionType` Enum Mapping
-The `position` attribute in the `player_position` table is derived from the `PositionType` enum. The second item in each `PositionType` tuple is saved as the `position` string. If you want the exact mappings: [This link](https://people.cs.kuleuven.be/~pieter.robberechts/kloppy/reference/domain/models/position/position/#kloppy.domain.PositionType.RightCentralMidfield) refers to the mappings we used in the conversion process.
+The `position` attribute in the `player_position` table is derived from the `PositionType` enum. The second item in each `PositionType` tuple is saved as the `position` string. If you want the exact mappings: [This link](https://people.cs.kuleuven.be/~pieter.robberechts/kloppy/reference/domain/models/position/position/) refers to the mappings we used in the conversion process.
 
 #### Purpose
 The `player_position` table is used to:
